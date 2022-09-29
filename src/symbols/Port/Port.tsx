@@ -135,6 +135,7 @@ export const Port = forwardRef(
       offsetX,
       offsetY
     };
+    console.log('children, ', children);
 
     return (
       <g id={id}>
